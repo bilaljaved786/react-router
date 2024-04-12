@@ -8,7 +8,9 @@ export default function Home() {
       <h1>Route Not Matched</h1>
       <input type="text" placeholder="enter user name" /> <br />
       <input type="text" placeholder="enter password" /> <br />
-      <button type="button">Login</button>
+      <button style={{ marginTop: "10px" }} type="button">
+        Login
+      </button>
       {/* <Link to={"/about"}>About page</Link> */}
     </div>
   );

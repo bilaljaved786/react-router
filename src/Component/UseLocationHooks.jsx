@@ -1,12 +1,13 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import "../App.css";
 
 export default function UseLocationHooks() {
-  const location = useLocation();
-
+  const location = useLocation(); // # use of location object here
   console.log(location);
+
   return (
-    <div>
+    <div className="App">
       <h1>UseLocationHooks</h1>
     </div>
   );
